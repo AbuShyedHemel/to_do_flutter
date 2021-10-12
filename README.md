@@ -1,4 +1,4 @@
-# local_push_notification
+# To Do app
 
 A new Flutter project.
 
