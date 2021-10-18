@@ -3,7 +3,7 @@
 import 'package:date_picker_timeline/date_picker_timeline.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:local_push_notification/controller/themes/themes.dart';
+import 'package:local_push_notification/services/themes/themes.dart';
 
 class ScrollTime extends StatelessWidget {
   DateTime onDateChanger;

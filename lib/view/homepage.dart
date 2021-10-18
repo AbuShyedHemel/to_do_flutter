@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:local_push_notification/controller/appbarcontroller.dart';
-import 'package:local_push_notification/controller/notificationController.dart';
-import 'package:local_push_notification/controller/themeservices.dart';
+import 'package:local_push_notification/services/appbar/appbarcontroller.dart';
+import 'package:local_push_notification/services/notificationController.dart';
+import 'package:local_push_notification/services/themes/themeservices.dart';
 import 'package:local_push_notification/view/taskPage/add_task_page.dart';
 import 'package:local_push_notification/view/widgets/add_tasks.dart';
 import 'package:local_push_notification/view/widgets/button.dart';
@@ -33,11 +33,11 @@ class _HomePageState extends State<HomePage> {
           title: "Theme Changed",
           body: Get.isDarkMode ? "Light Activated" : "Dark Activated");
     },
-    icon: Icon(
-      Icons.nightlight_outlined,
+    icon:const Icon(
+     Icons.nightlight_outlined,
       size: 20,
-      color: Get.isDarkMode ? Colors.white : Colors.black,
-    ),
+      color: Colors.deepOrangeAccent
+    )
   );
   @override
   Widget build(BuildContext context) {

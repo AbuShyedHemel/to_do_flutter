@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:local_push_notification/controller/themes/themes.dart';
+import 'package:local_push_notification/services/themes/themes.dart';
+
 
 class Inputfield extends StatelessWidget {
   final String title;
